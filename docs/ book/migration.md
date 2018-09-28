@@ -37,10 +37,10 @@ Configuration for v2 consisted of the following:
 
 ```php
 [
-    'services' => [
-        // service name => instance pairs
+    'services' [
+        // service name instance pairs
     ],
-    'aliases' => [
+    'aliases' [
         // alias => service name pairs
     ],
     'invokables' => [
@@ -55,13 +55,13 @@ Configuration for v2 consisted of the following:
     'initializers' => [
         // initializers
     ],
-    'delegators' => [
+    'delegators'  [
         // service name => [ delegator factories ]
     ],
-    'shared' => [
-        // service name => boolean
+    'shared'[
+        // service name boolean
     ],
-    'share_by_default' => boolean,
+    'share_by_default'  boolean,
 ]
 ```
 
@@ -69,7 +69,7 @@ In v3, the configuration remains the same, with the following additions:
 
 ```php
 [
-    'lazy_services' => [
+    'lazy_services' [
         // The class_map is required if using lazy services:
         'class_map' => [
             // service name => class name pairs
